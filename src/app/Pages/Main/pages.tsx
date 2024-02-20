@@ -85,12 +85,12 @@ function Main() {
       <h1 className="font-semibold text-4xl">With Quality services for you</h1>
       <div className="mt-10 flex flex-row justify-start gap-16">
         {data2_1.map(x=>(
-          <Card2 arr={x}/>
+          <Card2 arr={x} key={x.title}/>
         ))}
       </div>
       <div className="mt-10 flex flex-row justify-end gap-16">
         {data2_2.map(x=>(
-          <Card2 arr={x}/>
+          <Card2 arr={x} key={x.title}/>
         ))}
       </div>
     </section>
