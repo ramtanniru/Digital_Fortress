@@ -3,7 +3,7 @@
 import React, { useState } from 'react';  
  
  
-  function ContactUs() {
+  function page() {
 
   return (
     // ContactUs section with a full height background
@@ -14,4 +14,4 @@ import React, { useState } from 'react';
 }
 
 // Export the ContactUs component
-export default ContactUs;
+export default page;

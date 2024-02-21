@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Main from "./Pages/Main/pages";
-import AboutUs from "./Pages/AboutUs/pages";
-import Services from "./Pages/Services/pages";
-import ContactUs from "./Pages/ContactUs/pages";
+import Main from "./Main/Main";
+import AboutUs from "./AboutUs/page";
+import Services from "./Services/page";
+import ContactUs from "./ContactUs/page";
 
 export default function Home() {
   return (

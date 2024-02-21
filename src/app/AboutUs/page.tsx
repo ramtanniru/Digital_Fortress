@@ -3,15 +3,15 @@
 import React, { useState } from 'react';  
  
  
-  function Services() {
+  function page () {
 
   return (
-    // Services section with a full height background
+    // AboutUs section with a full height background
     <section className=" h-screen relative">
-    <h1>this Services page</h1>
+    <h1>this AboutUs page</h1>
     </section>
   );
 }
 
-// Export the Services component
-export default Services;
+// Export the AboutUs component
+export default page;

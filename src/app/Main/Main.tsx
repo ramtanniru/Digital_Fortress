@@ -6,7 +6,7 @@ import { data, data2_1, data2_2 } from "@/app/components/data";
 import Card1 from "@/app/components/Card1";
 import logo2 from '@/app/assets/Logo2.svg';
 import Card2 from "@/app/components/Card2";
-function Main() {
+function page() {
 
   const handleStarted = () => {
     var x = document.getElementById('text1');
@@ -104,4 +104,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default page;
